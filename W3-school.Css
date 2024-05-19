@@ -1,0 +1,975 @@
+/* initioal setting */
+
+@font-face {
+  font-family: arialer;
+  src: url(../font/arial.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: arialer;
+  height: 100vh;
+  max-width: 200%;
+  min-width: 25%;
+  line-height: 1.5;
+}
+
+div {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-family: arialer;
+}
+
+input {
+  display: inline-block;
+}
+
+/* header */
+
+header {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-header {
+  display: inline-block;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.nav-header > .search {
+  flex: 1;
+  text-align: center;
+}
+
+.search > .search-bar {
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 8px 8px;
+  font-style: italic;
+}
+
+.nav-header > nav > ul {
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+}
+
+.sing-and-log {
+  text-align: end;
+  padding-right: 5px;
+  display: block;
+  flex: 1;
+}
+
+.sign-up {
+  background-color: #04aa6d;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  margin: 0px;
+}
+
+.sing-and-log > .sign-up :hover {
+  background-color: #95a19d;
+}
+
+.log-in {
+  background-color: #04aa6d44;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.sing-and-log > a :hover {
+  background-color: #04aa6d;
+}
+
+.nav-header {
+  display: flex;
+  margin: 0px;
+  padding: 0%;
+}
+
+.options-all {
+  display: flex;
+  padding-left: 15px;
+  margin: 0px;
+}
+
+.options-all > ul > .li-lis {
+  padding: 0px;
+  margin: 0px;
+}
+
+.options-all > ul > .li-lis > a > .op-list {
+  padding: 17.2px 6px;
+  box-sizing: border-box;
+}
+
+.options-all > ul > .li-lis > a :hover {
+  background-color: #04aa6d !important;
+  color: aliceblue;
+}
+
+/*  */
+
+.language-program > ul > li {
+  padding: 0px 15px 0px 0px;
+  margin: 0px;
+}
+
+.all-language {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background-color: #282a35;
+}
+
+.language {
+  padding: 0px;
+  margin: 0px;
+}
+
+.all-language > li > a {
+  display: inline-block;
+  color: aliceblue;
+  margin: 0px 0px;
+  padding: 8px 12px;
+  text-align: center;
+  width: 95%;
+  font-size: 12.5px;
+}
+
+.all-language > li > a:hover {
+  background-color: black;
+}
+
+.language-program {
+  display: block;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* main */
+
+main {
+  display: block;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* header main */
+
+.text-header {
+  background-image: url(../../img-page/w3schoolscom_cover.jpg);
+  background-size: 2650px 500px;
+  text-align: center;
+  height: 500px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.search-main-haeder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ga-fp {
+  border-radius: 25px;
+  outline: none;
+  float: left;
+  width: 40%;
+  float: left;
+  padding: 15px;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#learntocode_searchbtn {
+  display: inline-block;
+  text-align: center;
+  width: 9%;
+  text-align: center;
+  background-color: #04aa6d;
+  font: normal normal normal 14px/1 fontawesome;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  cursor: pointer;
+}
+
+#learntocode_searchbtn > .gg-search {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font: normal normal normal 14px/1 fontawesome;
+  text-rendering: auto;
+  -webkit-font-smooying: antialiased;
+  outline: none;
+}
+
+.gg-search::before {
+  display: inline-block;
+  font: normal normal normal 14px/1 fontawesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+.text-header > div > h1 {
+  padding: 0px;
+  padding-top: 120px;
+  margin: 0%;
+  color: aliceblue;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+}
+
+.text-header > div > h3 {
+  color: #fff4a3;
+  letter-spacing: 1px;
+}
+
+.text-link-1 {
+  color: aliceblue;
+  text-decoration: underline solid aliceblue;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.text-header > div > h3 > a:hover {
+  color: #fff4a3;
+  text-decoration-color: #fff4a3;
+}
+
+.text-header > .section-one {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* main body */
+
+/* html */
+.buttons-Html {
+  display: block;
+  margin: 25px;
+}
+.buttons-Html > a {
+  padding: 10px;
+  margin: 0px;
+  margin-top: -10px;
+  color: black;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+#buttons-Html-1 :hover {
+  background-color: #037249 !important;
+}
+#buttons-Html-2 :hover {
+  background-color: #c7c07f !important;
+}
+#buttons-Html-3 :hover {
+  background-color: black !important;
+}
+#buttons-Html-4 :hover {
+  background-color: #d09ea3 !important;
+}
+#but-html-1 {
+  background-color: #04aa6d;
+  color: white;
+}
+#but-html-2 {
+  background-color: #fff4a3;
+}
+#but-html-3 {
+  background-color: #282a35;
+  color: white;
+}
+#but-html-4 {
+  background-color: #ffc0c7 !important ;
+}
+
+/* css */
+.buttons-CSS {
+  display: block;
+  margin: 25px;
+}
+.buttons-CSS > a {
+  padding: 10px;
+  margin: 0px;
+  margin-top: -10px;
+  color: black;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+#buttons-CSS-1 :hover {
+  background-color: #037249 !important;
+}
+#buttons-CSS-2 :hover {
+  background-color: #c7c07f !important;
+}
+#buttons-CSS-3 :hover {
+  background-color: black !important;
+}
+#buttons-CSS-4 :hover {
+  background-color: #d09ea3 !important;
+}
+#but-CSS-1 {
+  background-color: #04aa6d;
+  color: white;
+}
+#but-CSS-2 {
+  background-color: #fff4a3;
+}
+#but-CSS-3 {
+  background-color: #282a35;
+  color: white;
+}
+#but-CSS-4 {
+  background-color: #ffc0c7 !important ;
+}
+
+/* JavaScript */
+.buttons-JavaScript {
+  display: block;
+  margin: 25px;
+}
+.buttons-JavaScript > a {
+  padding: 10px;
+  margin: 0px;
+  margin-top: -10px;
+  color: black;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+#buttons-JavaScript-1 :hover {
+  background-color: #037249 !important;
+}
+#buttons-JavaScript-2 :hover {
+  background-color: #c7c07f !important;
+}
+#buttons-JavaScript-3 :hover {
+  background-color: #e7e9eb !important;
+}
+#buttons-JavaScript-4 :hover {
+  background-color: #d09ea3 !important;
+}
+#but-JavaScript-1 {
+  background-color: #04aa6d;
+  color: white;
+}
+#but-JavaScript-2 {
+  background-color: #fff4a3;
+}
+#but-JavaScript-3 {
+  background-color: white;
+  color: black;
+}
+#but-JavaScript-4 {
+  background-color: #ffc0c7 !important ;
+}
+
+/* Python */
+.buttons-Python {
+  display: block;
+  margin: 25px;
+}
+.buttons-Python > a {
+  padding: 10px;
+  margin: 0px;
+  margin-top: -10px;
+  color: black;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+}
+#buttons-Python-1 :hover {
+  background-color: #037249 !important;
+}
+#buttons-Python-2 :hover {
+  background-color: #c7c07f !important;
+}
+#buttons-Python-3 :hover {
+  background-color: black !important;
+}
+#buttons-Python-4 :hover {
+  background-color: #d09ea3 !important;
+}
+#but-Python-1 {
+  background-color: #04aa6d;
+  color: white;
+}
+#but-Python-2 {
+  background-color: #fff4a3;
+}
+#but-Python-3 {
+  background-color: #282a35;
+  color: white;
+}
+#but-Python-4 {
+  background-color: #ffc0c7 !important ;
+}
+
+/* SQL */
+.buttons-SQL {
+  display: block;
+  margin: 25px;
+}
+.buttons-SQL > a {
+  padding: 10px;
+  margin: 0px;
+  margin-top: -10px;
+  color: black;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+}
+#buttons-SQL-1 :hover {
+  background-color: #037249 !important;
+}
+#buttons-SQL-2 :hover {
+  background-color: #c7c07f !important;
+}
+#buttons-SQL-3 :hover {
+  background-color: black !important;
+}
+#buttons-SQL-4 :hover {
+  background-color: #d09ea3 !important;
+}
+#but-SQL-1 {
+  background-color: #04aa6d;
+  color: white;
+}
+#but-SQL-2 {
+  background-color: #fff4a3;
+}
+#but-SQL-3 {
+  background-color: #282a35;
+  color: white;
+}
+#but-SQL-4 {
+  background-color: #ffc0c7 !important ;
+}
+
+.text-html > .svg {
+  background-color: #d9eee1;
+  height: 50px;
+}
+.text-CSS > .svg {
+  background-color: #fff4a3;
+  height: 50px;
+}
+.text-JavaScript > .svg {
+  background-color: #282a35;
+  height: 50px;
+}
+.text-Python > .svg {
+  background-color: #f3ecea;
+  height: 50px;
+}
+.text-SQL > .svg {
+  background-color: #96d4d4;
+  height: 50px;
+}
+
+.all-items-Html {
+  display: flex;
+  justify-content: center;
+}
+.all-items-CSS {
+  display: flex;
+  justify-content: center;
+}
+.all-items-JavaScript {
+  display: flex;
+  justify-content: center;
+}
+.all-items-Python {
+  display: flex;
+  justify-content: center;
+}
+.all-items-SQL {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs-html {
+  text-align: center;
+  margin-top: -50px;
+}
+.inputs-CSS {
+  text-align: center;
+  margin-top: -50px;
+}
+.inputs-JavaScript {
+  text-align: center;
+  margin-top: -50px;
+}
+.inputs-Python {
+  text-align: center;
+  margin-top: -50px;
+}
+.inputs-SQL {
+  text-align: center;
+  margin-top: -50px;
+}
+
+.inputs-html,
+.Help-Html {
+  min-width: 50%;
+}
+.inputs-CSS,
+.Help-CSS {
+  width: 50%;
+}
+.inputs-JavaScript,
+.Help-JavaScript {
+  width: 50%;
+}
+.inputs-Python,
+.Help-Python {
+  width: 50%;
+}
+.inputs-SQL,
+.Help-SQL {
+  width: 50%;
+}
+
+.text-html {
+  background-color: #d9eee1 !important;
+}
+.text-CSS {
+  background-color: #fff4a3 !important;
+}
+.text-JavaScript {
+  background-color: #282a35 !important;
+}
+.text-Python {
+  background-color: #f3ecea !important;
+}
+.text-SQL {
+  background-color: #96d4d4 !important;
+}
+
+.main-text-html > h1 {
+  font-size: 80px;
+}
+.main-text-CSS > h1 {
+  font-size: 80px;
+}
+.main-text-JavaScript > h1 {
+  font-size: 80px;
+  color: aliceblue;
+}
+.main-text-Python > h1 {
+  font-size: 80px;
+}
+.main-text-SQL > h1 {
+  font-size: 80px;
+}
+
+.main-text-JavaScript > h3 {
+  color: aliceblue;
+}
+
+main > .text-html,
+.text-CSS,
+.text-JavaScript,
+.text-Python,
+.text-SQL {
+  height: 550px;
+  box-sizing: border-box;
+}
+
+.Help-Html > aside {
+  display: block;
+  max-width: 90%;
+  margin: 15px;
+  background-color: #e7e9eb;
+  padding: 16px;
+  border: #282a35 solid;
+  box-sizing: border-box;
+}
+.Help-CSS > aside {
+  display: block;
+  max-width: 90%;
+  margin: 15px;
+  background-color: #e7e9eb;
+  padding: 16px;
+  border: #282a35 solid;
+  box-sizing: border-box;
+}
+.Help-JavaScript > aside {
+  display: block;
+  margin: 15px;
+  max-width: 90%;
+  background-color: #e7e9eb;
+  padding: 16px;
+  border: #282a35 solid;
+  box-sizing: border-box;
+}
+.Help-Python > aside {
+  display: block;
+  max-width: 90%;
+  margin: 15px;
+  background-color: #e7e9eb;
+  padding: 16px;
+  border: #282a35 solid;
+  box-sizing: border-box;
+}
+.Help-SQL > aside {
+  display: block;
+  max-width: 90%;
+  margin: 15px;
+  background-color: #e7e9eb;
+  padding: 16px;
+  border: #282a35 solid;
+  box-sizing: border-box;
+}
+
+.text-help-html > h2 {
+  color: black;
+  text-align: start;
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-help-CSS > h2 {
+  color: black;
+  text-align: start;
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-help-JavaScript > h2 {
+  color: black;
+  text-align: start;
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-help-Python > h2 {
+  color: black;
+  text-align: start;
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-help-SQL > h2 {
+  color: black;
+  text-align: start;
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.Html {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 300px;
+  box-sizing: inherit;
+  width: auto;
+  text-align: start;
+  padding: 10px;
+  font-size: 15px;
+}
+.CSS {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 300px;
+  box-sizing: inherit;
+  width: auto;
+  text-align: start;
+  padding: 10px;
+  font-size: 15px;
+}
+.JavaScript {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 300px;
+  box-sizing: inherit;
+  width: auto;
+  text-align: start;
+  padding: 10px;
+  font-size: 15px;
+}
+.Python {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 300px;
+  box-sizing: inherit;
+  width: auto;
+  text-align: start;
+  padding: 10px;
+  font-size: 15px;
+}
+.SQL {
+  background-color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 300px;
+  box-sizing: inherit;
+  width: auto;
+  text-align: start;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.Example-Html {
+  display: inline-block;
+}
+.Example-CSS {
+  display: inline-block;
+}
+.Example-JavaScript {
+  display: inline-block;
+}
+.Example-Python {
+  display: inline-block;
+}
+.Example-SQL {
+  display: inline-block;
+}
+
+.Example-Html > a {
+  background-color: #04aa6d;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.Example-CSS > a {
+  background-color: #04aa6d;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.Example-JavaScript > a {
+  background-color: #04aa6d;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.Example-Python > a {
+  background-color: #04aa6d;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+.Example-SQL > a {
+  background-color: #04aa6d;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+}
+
+.Example-Html :hover {
+  background-color: #037249;
+  color: aliceblue;
+}
+.Example-CSS :hover {
+  background-color: #037249;
+  color: aliceblue;
+}
+.Example-JavaScript :hover {
+  background-color: #037249;
+  color: aliceblue;
+}
+.Example-Python :hover {
+  background-color: #037249;
+  color: aliceblue;
+}
+.Example-SQL :hover {
+  background-color: #037249;
+  color: aliceblue;
+}
+
+/*  */
+
+.tag-color {
+  color: mediumblue;
+}
+
+.name-tag {
+  color: brown;
+}
+
+.red-tage {
+  color: red !important;
+}
+
+/* main footer */
+
+.ALL--main--footer {
+  display: block;
+  background-color: #282a35;
+  height: auto;
+  max-width: 100%;
+}
+
+.collection_Specialized-languages {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.Specialized-languages {
+  display: inline-block;
+  justify-content: center;
+  background-color: #d9eee1;
+  padding: 15px 60px;
+  margin: 15px 20px;
+  border-radius: 5px;
+}
+
+.Specialized-languages > section > h2 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.Specialized-languages > section > a {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #282a35;
+  color: aliceblue;
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.Specialized-languages > section > a:hover {
+  background-color: black;
+  color: white;
+}
+
+#Specialized-languages-PHP {
+  background-color: #ffc0c7;
+}
+#Specialized-languages-jQuery {
+  background-color: #fff4a3;
+}
+#Specialized-languages-Java {
+  background-color: #f3ecea;
+}
+#Specialized-languages-C {
+  background-color: #d9eee1;
+}
+#Specialized-languages-W3.CSS {
+  background-color: #96d4d4;
+}
+#Specialized-languages-Bootstrap {
+  background-color: #e7e9eb;
+}
+
+/* main footer 2 */
+
+.all-aside-language {
+  height: auto;
+  background-color: #282a35;
+  display: inline-block;
+  text-align: center;
+}
+
+#aside-language-1,
+#aside-language-2 {
+  display: inline-block;
+}
+
+#la-pro {
+  display: inline-block;
+  background-color: red;
+  padding: 5px 25px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#aside-language-2 > #the-rest-of-the-languages {
+  font-size: 20px !important;
+  background-color: #ffc0c7;
+  display: inline-block;
+  padding: 30px 15px;
+  margin: 20px;
+  width: 150px;
+  border-radius: 5px;
+}
+.h2-DSA {
+  padding: 5px;
+}
+
+/* div main footer 3  */
+
+#all-div-main-footer-3 {
+  text-align: center;
+  padding: 30px 3px 85px 3px;
+}
+
+#all-div-main-footer-3 > #div-1 > h1,
+h4 {
+  color: white;
+}
+
+.Header-site-help-Code-Editor {
+  display: block;
+}
+
+.header-right-site-help-Code-Editor {
+  flex: 1;
+  float: right;
+}
+.header-left-site-help-Code-Editor {
+  flex: 1;
+  float: left;
+}
+
+#span-header-left-site-help-Code-Editor {
+  padding: 0px 8px;
+  margin: 3px;
+  border-radius: 10px;
+}
