@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>w3schools</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="Stayle-Css/w3-schools-1/W3-school.Css" />
+    <link rel="stylesheet" href="Stayle-Css/w3-schools-1/W3-text.css" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <header>
+      <!-- header -->
+      <div class="nav-header">
+        <div class="logo-web">
+          <a class="img-logo" href="#">
+            <img
+              src="img-page/download_prev_ui.png"
+              alt="W3-schools"
+              width="50px"
+              height="45px"
+            />
+          </a>
+        </div>
+        <!--  -->
+        <nav class="options-all">
+          <ul>
+            <li class="li-lis">
+              <a href=""
+                ><i class="op-list" style="display: inline">Tutorials</i></a
+              >
+            </li>
+            <li class="li-lis">
+              <a href=""
+                ><i class="op-list" style="display: inline">Exercises</i></a
+              >
+            </li>
+            <li class="li-lis">
+              <a href=""
+                ><i class="op-list" style="display: inline">certificates</i></a
+              >
+            </li>
+            <li class="li-lis">
+              <a href=""
+                ><i class="op-list" style="display: inline">Services</i></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!--  -->
+        <div class="search">
+          <label for="search-bar-web"></label>
+          <input
+            type="search"
+            onblur="topnavbar.searchfieldostfocus(event)"
+            placeholder="search..."
+            autocomplete="off"
+            id="search-bar-web"
+            class="search-bar"
+            itemtype="all"
+          />
+        </div>
+        <!--  -->
+        <div class="sing-and-log">
+          <a href="" class="sign-up">Sing up</a>
+          <a href="" class="log-in">Log in</a>
+        </div>
+      </div>
+      <!--  -->
+      <div class="language-program">
+        <ul class="all-language">
+          <li class="language"><a href="">HTML</a></li>
+          <li class="language"><a href="">CSS</a></li>
+          <li class="language"><a href="">JAVASCRIPT</a></li>
+          <li class="language"><a href="">SQL</a></li>
+          <li class="language"><a href="">PYTHON</a></li>
+          <li class="language"><a href="">JAVA</a></li>
+          <li class="language"><a href="">PHP</a></li>
+          <li class="language"><a href="">HOW TO</a></li>
+          <li class="language"><a href="">W3.CSS</a></li>
+          <li class="language"><a href="">C</a></li>
+          <li class="language"><a href="">C++</a></li>
+          <li class="language"><a href="">C#</a></li>
+          <li class="language"><a href="">BOOTSTRAP</a></li>
+          <li class="language"><a href="">REACT</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- main header -->
+      <section class="text-header">
+        <div class="section-one">
+          <h1 class="text">Learn to code</h1>
+          <h3>With the world's largest web developer site.</h3>
+          <form action="">
+            <div class="search-main-haeder">
+              <input type="search" placeholder="Search our tutorials, e.g. HTML" id="search2" class="ga-fp" autocomplete="off" onkeydown="key_pressed_in_search(event)" oninput="find_search_results(this)" onfocus="find_search_results(this)" style="border-bottom-left-radius: 25px;">
+                <button type="button" 
+                  id="learntocode_searchbtn"
+                  onclick="click_learntocode_search_btn()">
+                  <i class="gg-search"></i>
+              </button>
+            </div>
+          </form>
+          <h3><a class="text-link-1" href="">Not Sure Where To Begin?</a></h3>
+        </div>
+      </section>
+      <!-- main body -->
+      <section class="text-html">
+        <div class="svg"></div>
+        <div class="all-items-Html">
+          <div class="inputs-html">
+            <div class="main-text-html">
+              <h1>HTML</h1>
+              <h3>The language for building web pages</h3>
+            </div>
+            <div class="buttons-Html" id="buttons-Html-1">
+              <a href="" class="but-Html" id="but-html-1">Learn HTMl</a>
+            </div>
+            <div class="buttons-Html" id="buttons-Html-2">
+              <a href="" class="but-Html" id="but-html-2">Video Tutorial</a>
+            </div>
+            <div class="buttons-Html" id="buttons-Html-3">
+              <a href="" class="but-Html" id="but-html-3">HTML Refrence</a>
+            </div>
+            <div class="buttons-Html" id="buttons-Html-4">
+              <a href="" class="but-Html" id="but-html-4">Get Cetified</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="Help-Html">
+            <aside>
+              <div class="text-help-html"><h2>HTML Example:</h2></div>
+              <div class="Html">
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">!DOCTYPE <span class="red-tage">html</span></span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">html</span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">head</span><span class="tag-color">></span>
+                  </span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">title</span><span class="tag-color">></span>
+                  HTML Tutorial
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/title</span><span class="tag-color">></span>
+                  </span></span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/head</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">body</span><span class="tag-color">></span>
+                  </span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">h1</span><span class="tag-color">></span>
+                  This is a heading
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/h1</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">p</span><span class="tag-color">></span>
+                  This is a paragraph.
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/p</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/body</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/html</span><span class="tag-color">></span>
+                </span></span>
+              </div>
+              <div class="Example-Html"><a href="">Try it Yourself </a></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="text-CSS">
+        <div class="svg"></div>
+        <div class="all-items-CSS">
+          <div class="inputs-CSS">
+            <div class="main-text-CSS">
+              <h1>CSS</h1>
+              <h3>The language for building web pages</h3>
+            </div>
+            <div class="buttons-CSS" id="buttons-CSS-1">
+              <a href="" class="but-CSS" id="but-CSS-1">Learn CSS</a>
+            </div>
+            <div class="buttons-CSS" id="buttons-CSS-3">
+              <a href="" class="but-CSS" id="but-CSS-3">CSS Refrence</a>
+            </div>
+            <div class="buttons-CSS" id="buttons-CSS-4">
+              <a href="" class="but-CSS" id="but-CSS-4">Get Cetified</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="Help-CSS">
+            <aside>
+              <div class="text-help-CSS"><h2>CSS Example:</h2></div>
+              <div class="CSS">
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">!DOCTYPE <span class="red-tage">CSS</span></span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">CSS</span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">head</span><span class="tag-color">></span>
+                  </span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">title</span><span class="tag-color">></span>
+                  CSS Tutorial
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/title</span><span class="tag-color">></span>
+                  </span></span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/head</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">body</span><span class="tag-color">></span>
+                  </span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">h1</span><span class="tag-color">></span>
+                  This is a heading
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/h1</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">p</span><span class="tag-color">></span>
+                  This is a paragraph.
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/p</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/body</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/CSS</span><span class="tag-color">></span>
+                </span></span>
+              </div>
+              <div class="Example-CSS"><a href="">Try it Yourself </a></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="text-JavaScript">
+        <div class="svg"></div>
+        <div class="all-items-JavaScript">
+          <div class="inputs-JavaScript">
+            <div class="main-text-JavaScript">
+              <h1>JavaScript</h1>
+              <h3>The language for building web pages</h3>
+            </div>
+            <div class="buttons-JavaScript" id="buttons-JavaScript-1">
+              <a href="" class="but-JavaScript" id="but-JavaScript-1">Learn JavaScript</a>
+            </div>
+            <div class="buttons-JavaScript" id="buttons-JavaScript-3">
+              <a href="" class="but-JavaScript" id="but-JavaScript-3">JavaScript Refrence</a>
+            </div>
+            <div class="buttons-JavaScript" id="buttons-JavaScript-4">
+              <a href="" class="but-JavaScript" id="but-JavaScript-4">Get Cetified</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="Help-JavaScript">
+            <aside>
+              <div class="text-help-JavaScript"><h2>JavaScript Example:</h2></div>
+              <div class="JavaScript">
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">!DOCTYPE <span class="red-tage">JavaScript</span></span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">JavaScript</span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">head</span><span class="tag-color">></span>
+                  </span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">title</span><span class="tag-color">></span>
+                  JavaScript Tutorial
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/title</span><span class="tag-color">></span>
+                  </span></span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/head</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">body</span><span class="tag-color">></span>
+                  </span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">h1</span><span class="tag-color">></span>
+                  This is a heading
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/h1</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">p</span><span class="tag-color">></span>
+                  This is a paragraph.
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/p</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/body</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/JavaScript</span><span class="tag-color">></span>
+                </span></span>
+              </div>
+              <div class="Example-JavaScript"><a href="">Try it Yourself </a></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="text-Python">
+        <div class="svg"></div>
+        <div class="all-items-Python">
+          <div class="inputs-Python">
+            <div class="main-text-Python">
+              <h1>Python</h1>
+              <h3>The language for building web pages</h3>
+            </div>
+            <div class="buttons-Python" id="buttons-Python-1">
+              <a href="" class="but-Python" id="but-Python-1">Learn Python</a>
+            </div>
+            <div class="buttons-Python" id="buttons-Python-3">
+              <a href="" class="but-Python" id="but-Python-3">Python Refrence</a>
+            </div>
+            <div class="buttons-Python" id="buttons-Python-4">
+              <a href="" class="but-Python" id="but-Python-4">Get Cetified</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="Help-Python">
+            <aside>
+              <div class="text-help-Python"><h2>Python Example:</h2></div>
+              <div class="Python">
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">!DOCTYPE <span class="red-tage">Python</span></span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">Python</span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">head</span><span class="tag-color">></span>
+                  </span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">title</span><span class="tag-color">></span>
+                  Python Tutorial
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/title</span><span class="tag-color">></span>
+                  </span></span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/head</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">body</span><span class="tag-color">></span>
+                  </span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">h1</span><span class="tag-color">></span>
+                  This is a heading
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/h1</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">p</span><span class="tag-color">></span>
+                  This is a paragraph.
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/p</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/body</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/Python</span><span class="tag-color">></span>
+                </span></span>
+              </div>
+              <div class="Example-Python"><a href="">Try it Yourself </a></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="text-SQL">
+        <div class="svg"></div>
+        <div class="all-items-SQL">
+          <div class="inputs-SQL">
+            <div class="main-text-SQL">
+              <h1>SQL</h1>
+              <h3>The language for building web pages</h3>
+            </div>
+            <div class="buttons-SQL" id="buttons-SQL-1">
+              <a href="" class="but-SQL" id="but-SQL-1">Learn SQL</a>
+            </div>
+            <div class="buttons-SQL" id="buttons-SQL-3">
+              <a href="" class="but-SQL" id="but-SQL-3">SQL Refrence</a>
+            </div>
+            <div class="buttons-SQL" id="buttons-SQL-4">
+              <a href="" class="but-SQL" id="but-SQL-4">Get Cetified</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="Help-SQL">
+            <aside>
+              <div class="text-help-SQL"><h2>SQL Example:</h2></div>
+              <div class="SQL">
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">!DOCTYPE <span class="red-tage">SQL</span></span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">SQL</span><span class="tag-color">></span>
+                </span></span>
+                <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">head</span><span class="tag-color">></span>
+                  </span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">title</span><span class="tag-color">></span>
+                  SQL Tutorial
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/title</span><span class="tag-color">></span>
+                  </span></span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/head</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">body</span><span class="tag-color">></span>
+                  </span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">h1</span><span class="tag-color">></span>
+                  This is a heading
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/h1</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">p</span><span class="tag-color">></span>
+                  This is a paragraph.
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/p</span><span class="tag-color">></span>
+                  </span></span></span></span>
+                  <br><br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/body</span><span class="tag-color">></span>
+                  </span></span>
+                  <br>
+                  <span class="text-code"><span class="tag-color"><</span><span class="name-tag">/SQL</span><span class="tag-color">></span>
+                </span></span>
+              </div>
+              <div class="Example-SQL"><a href="">Try it Yourself </a></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="ALL--main--footer">
+        <!-- main footer 1 -->
+        <div class="collection_Specialized-languages">
+          <div class="Specialized-languages" id="Specialized-languages-PHP">
+            <section>
+              <h2>PHP</h2>
+              <h4>A web server programming language</h4>
+              <a href="">Learn PHP</a>
+            </section>
+          </div>
+          <div class="Specialized-languages" id="Specialized-languages-jQuery">
+            <section>
+              <h2>jQuery</h2>
+              <h4>A web server programming language</h4>
+              <a href="">Learn jQuery</a>
+            </section>
+          </div>
+          <div class="Specialized-languages" id="Specialized-languages-Java">
+            <section>
+              <h2>Java</h2>
+              <h4>A web server programming language</h4>
+              <a href="">Learn Java</a>
+            </section>            
+          </div>
+          <div class="Specialized-languages" id="Specialized-languages-C">
+            <section>
+              <h2>C++</h2>
+              <h4>A web server programming language</h4>
+              <a href="">Learn C++</a>
+            </section>            
+          </div>
+          <div class="Specialized-languages" id="Specialized-languages-W3.CSS">
+            <section>
+              <h2>W3.CSS</h2>
+              <h4>A web server programming language</h4>
+              <a href="">Learn W3.CSS</a>
+            </section>            
+          </div>
+          <div class="Specialized-languages" id="Specialized-languages-Bootstrap">
+            <section>
+              <h2>Bootstrap</h2>
+              <h4>A web server programming language</h4>
+              <a href="">Learn Bootstrap</a>
+            </section>            
+          </div>
+        </div>
+
+        <!-- main footer 2 -->
+
+        <section class="all-aside-language">
+          <aside id="aside-language-1">
+            <a href="" id="la-pro" style="background-color: #FFC0C7!important;"><h2 style="font-size:20px;font-weight:500;width: 300px;">C</h2></a>
+            <a href="" id="la-pro" style="background-color: #FFF4A3!important;"><h2 style="font-size:20px;font-weight:500;width: 300px;">C#</h2></a>
+          </aside>
+          <!--  -->
+          <aside id="aside-language-2">
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">R</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">Kotlin</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">node.js</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">React</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">JSON</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">Vue</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">MySQL</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">XML</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">Sass</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">lcons</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">RWD</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">Graphics</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">SVG</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">Canvas</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">Raspberry</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">Cyber Security</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">Colors</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">Git</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">Matplotlib</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">Numpy</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">Pandas</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">SciPy</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">ASP</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">AnglarJS</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">AppML</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">Go</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">TypeScript</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">Django</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">MongoDB</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">Statics</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">Data Science</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #D9EEE1!important;font-weight:500; ">Typing Speed</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #96D4D4!important;font-weight:500; ">HowTo</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFC0C7!important;font-weight:500; ">Code Game</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #FFF4A3!important;font-weight:500; ">Spacees</a>
+            <a href="" id="the-rest-of-the-languages" style="background-color: #F3ECEA!important;font-weight:500; ">PostgreSQL</a>
+          </aside>
+          <!--  -->
+          <aside id="aside-language-1">
+            <a href="" id="la-pro" style="background-color: #96D4D4!important; ;"><h2 style="font-size:25px;font-weight:500;width: 300px;">Excel</h2></a>
+            <a href="" id="la-pro" style="background-color: #FFF4A3!important;"><div><h2 class="h2-DSA" style="font-size:22px;font-weight:500">
+              <span>DSA - D</span><span style="font-size: 80%;">ata</span><span>S</span><span style="font-size: 80%;">tructures and</span><span>A</span><span style="font-size: 80%;">lgorithms</span>
+            </h2>
+            </div></a>
+            <a href="" id="la-pro" style="background-color: #FFC0C7!important;"><h2 style="font-size:25px;font-weight:500; width: 320px">Machine Learning</h2></a>
+            <a href="" id="la-pro" style="background-color: #F3ECEA!important;"><h2 style="font-size:25px;font-weight:500; width: 320px">Artificial Intelligence</h2></a>
+          </aside>
+        </section>
+
+        <!-- main footer 3 -->
+
+        <div id="all-div-main-footer-3">
+          <div id="div-1">
+            <h1>Code Editor</h1>
+            <h4>With our online code editor, you can edit code and view the result in your browser</h4>
+            <br>
+            <br>
+            <div>
+              <div class="header-site-help-Code-Editor">
+                <div class="Header-site-help-Code-Editor"></div>
+                <div class="header-left-site-help-Code-Editor">
+                  <span id="span-header-left-site-help-Code-Editor" style="background-color:#ED594A ;"></span>
+                  <span id="span-header-left-site-help-Code-Editor" style="background-color:#FDD800 ;"></span>
+                  <span id="span-header-left-site-help-Code-Editor" style="background-color:#5AC05A ;"></span>
+                </div>
+                <div class="header-right-site-help-Code-Editor">
+                  <input type="text" disabled value="www.w3schools.com/tryit/" class="input-header-right-site-help-Code-Editor">
+                </div>
+                <nav>
+                  <button id="but-nav-site-help-Code-Editor" onclick="openlangtab(event , Frontend)">Frontend</button>
+                  <button id="but-nav-site-help-Code-Editor" onclick="openlangtab(event , Backend)">Backend</button>
+                </nav>
+              </div>
+              <div>
+
+              </div>
+
+
+              <div>
+                <img src="" alt="">
+              </div>
+            </div>
+          </div>
+          <div id="div-2"></div>
+        </div>
+
+        <!-- main footer 4 -->
+
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <!-- main footer 5 -->
+
+        <div>
+          <div></div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div></div>
+    </footer>
+  </body>
+</html>
